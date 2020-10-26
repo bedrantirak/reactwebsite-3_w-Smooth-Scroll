@@ -26,7 +26,7 @@ const index = ({isOpen,toggle}) => {
                  <SidebarLink to="services" onClick={toggle}>
                      Services
                  </SidebarLink>
-                 <SidebarLink to="signup" >
+                 <SidebarLink to="signup" onClick={toggle} >
                      Sign Up
                  </SidebarLink>
             </SidebarMenu>  
